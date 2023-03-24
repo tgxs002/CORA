@@ -1,0 +1,11 @@
+numpy==1.23.0
+pycocotools==2.0.4
+lvis==0.5.3
+timm==0.5.4
+scipy==1.8.1
+Pillow
+matplotlib
+pandas
+nltk
+tqdm
+ftfy
