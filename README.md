@@ -96,7 +96,11 @@ If you are using slurm, please remember to replace quota_type and partition_name
 You can directly change the config to train other models.
 
 ### Region Prompting
-The training code for region prompting will be released soon in another branch of this repository, we provide the trained pre-trained region prompts as specified in [Data Preparation](#data-preparation).
+We provide the trained pre-trained region prompts as specified in [Data Preparation](#data-preparation).
+Please refer to the region branch for training and exporting the region prompts.
+```shell
+git checkout region
+```
 
 ### CLIP-Aligned Labeling
 The code for CLIP-Aligned Labeling will be released soon in another branch of this repository, we provide the pre-computed relabeled annotations as specified in [Data Preparation](#data-preparation).
